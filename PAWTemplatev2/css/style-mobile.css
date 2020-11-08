@@ -1,0 +1,106 @@
+/*
+	Solarize by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* Basic */
+
+	header.major h2 {
+		font-size: 1.8em;
+	}
+
+	header.major .byline {
+		font-size: 1.3em;
+	}
+
+	.wrapper {
+		padding: 4em 0em 2em 0em;
+	}
+
+		.wrapper.style2 {
+			padding-bottom: 5em;
+		}
+
+		.wrapper.style4 p {
+			margin-bottom: 1em;
+		}
+
+		.wrapper.style5 img {
+			width: 70%;
+		}
+
+/* Lists */
+
+	ul.icons li a {
+		font-size: 1.8em;
+	}
+
+/* Main */
+
+	#main #sidebar .major h2 {
+		font-size: 1.8m;
+	}
+
+	.youtubeframe{
+		position:relative;
+		left: 0px;
+		top: 20px;
+	}
+	.wrapper.style2 h3 {
+		position: relative;
+		left: 150px;
+	}
+	.wrapper.style2 p {
+		position: relative;
+		left: 150px;
+	}
+	.wrapper.style2 a {
+		position: relative;
+		left: 150px;
+	}
+	.pathfinderapi{
+		position: relative;
+		border: 5px solid black;
+		left: 0px;
+		margin-bottom: 60px;
+	}
+	.logos{
+			border: 0;
+		position: relative;
+		left: 250px;
+		top: -10px
+	}
+	.sublogos1{
+		border: 0;
+		position: relative;
+		left: -190px;
+		top: -10px
+	}
+	.sublogos2{
+		border: 0;
+		position: relative;
+		left: -150px;
+		top: 5px
+	}
+	.sublogos3{
+		border: 0;
+		position: relative;
+		left: -100px;
+		top: 5px
+	}
+	.mappang{
+			position: relative;
+			left: 0px;
+	}
+	#curve_chart{
+		position: relative;
+		width: 500px;
+		height: 300px;
+		border: solid black 5px;
+		margin-bottom: 5px;
+	}
+	#buttonmonitor{
+		margin-bottom: 30px;
+		margin-right: 90px;
+	}

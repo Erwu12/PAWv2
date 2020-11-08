@@ -1,0 +1,81 @@
+/*
+	Solarize by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* Basic */
+
+/* Image */
+
+	.image {
+		border: 0;
+		position: relative;
+		left: 2px;
+	}
+	.pathfinderapi{
+		position: relative;
+		border: 5px solid black;
+		left: 0px;
+		margin-bottom: 60px;
+	}
+	.logos{
+		border:0;
+			position: relative;
+			left: 180px;
+	}
+	.youtubeframe{
+		position:relative;
+		left: 125px;
+		top: 20px;
+	}
+	.wrapper.style2 h3 {
+		position: relative;
+		left: 150px;
+	}
+	.wrapper.style2 p {
+		position: relative;
+		left: 150px;
+	}
+	.wrapper.style2 a {
+		position: relative;
+		left: 150px;
+	}
+	.youtubeapi{
+		height: 1080;
+		width: 720;
+	}
+	.logos{
+			border: 0;
+		position: relative;
+		left: 250px;
+		top: -10px
+	}
+	.sublogos1{
+		border: 0;
+		position: relative;
+		left: -340px;
+		top: 66px
+	}
+	.sublogos2{
+		border: 0;
+		position: relative;
+		left: -160px;
+		top: 5px
+	}
+	.sublogos3{
+		border: 0;
+		position: relative;
+		left: -100px;
+		top: 5px
+	}
+	#curve_chart{
+		position: relative;
+		width: 700px;
+		height: 450px;
+		border: solid black 5px;
+	}
+	#buttonmonitor{
+		margin-bottom: 30px;
+		margin-right: -80px;
+	}

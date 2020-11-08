@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<!--
+	PAW: Pangolin Automated Watch
+	An entry for the Virtual Zoohackathon 2020
+	Front End: Marc Andrie Bermundo and Justin Alexis Versoza
+    Back End: Erwin Bonto and Julius Rafael Ele
+-->
+<html>
+	<head>
+		<title>Pangolin Automated Watch</title>
+        <link rel="shortcut icon" href="icon/logo.ico" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link href="style-current.css" rel="stylesheet" type="text/css">
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header Wrapper -->
+			<div class="wrapper style1">
+			
+			<!-- Header -->
+				<div id="header">
+					<div class="container">
+							
+						<!-- Logo -->
+							<h1><a href="#" id="logo">Pangolin Automated Watch</a></h1>
+						
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="active"><a style="color:grey" href="Home.html">Home</a></li>
+									<li>
+										<a href="About.html">About</a>
+									</li>
+									<li><a href="PAWMonitoring.html">PAW Monitoring</a></li>
+									<li><a href="PAWTracker.html">PAW Tracker</a></li>
+									<li><a href="#footer">Contact Details</a></li>
+							</nav>
+	
+					</div>
+				</div>
+				
+			<!-- Banner -->
+				<div id="banner">
+					<section class="container">
+						<h2>Pangolin Automated Watch</h2>
+						<span>A cross-platform system to defeat illegal poaching of the endangered Philippine pangolin</span>
+						</section>
+				</div>
+
+			</div>
+		
+		<!-- Logo and Description -->
+				<!-- Script for Youtube Player -->
+						<script type="text/javascript">
+		  var tag = document.createElement('script');
+		  tag.id = 'iframe-demo';
+		  tag.src = 'https://www.youtube.com/iframe_api';
+		  var firstScriptTag = document.getElementsByTagName('script')[0];
+		  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+		  var player;
+		  function onYouTubeIframeAPIReady() {
+			player = new YT.Player('existing-iframe-example', {
+				events: {
+				  'onReady': onPlayerReady,
+				  'onStateChange': onPlayerStateChange
+				}
+			});
+		  }
+		  function onPlayerReady(event) {
+			document.getElementById('existing-iframe-example').style.borderColor = '#FF6D00';
+		  }
+		  function changeBorderColor(playerStatus) {
+			var color;
+			if (playerStatus == -1) {
+			  color = "#37474F"; // unstarted = gray
+			} else if (playerStatus == 0) {
+			  color = "#FFFF00"; // ended = yellow
+			} else if (playerStatus == 1) {
+			  color = "#33691E"; // playing = green
+			} else if (playerStatus == 2) {
+			  color = "#DD2C00"; // paused = red
+			} else if (playerStatus == 3) {
+			  color = "#AA00FF"; // buffering = purple
+			} else if (playerStatus == 5) {
+			  color = "#FF6DOO"; // video cued = orange
+			}
+			if (color) {
+			  document.getElementById('existing-iframe-example').style.borderColor = color;
+			}
+		  }
+		  function onPlayerStateChange(event) {
+			changeBorderColor(event.data);
+		  }
+		</script>
+			<div class="wrapper style2">
+				<section class="container">
+					<div class="major">
+							<div class="6u">
+							<h3>About our project</h3>
+							<p>The Pangolin Automated Watch (PAW) - A Population Monitoring System for the Philippine Pangolin by Team Maharlika. Our goal is to monitor the pangolins in a conserved area using unmanned aerial vehicles (UAV’s) that is connected to a cross platform system maintained by artificial intelligence that will keep track of trespassing poachers that will try to capture pangolins for their scales or meat.</p>
+
+							<a href="About.html" class="button">see more</a>
+						</div>
+															<div class="youtubeframe">
+								<iframe id="youtubeapi"
+						width="480" height="320"
+						src="https://www.youtube.com/embed/SfmbHY161YE"
+						frameborder="0"
+						style="border: solid 4px #37474F"
+						></iframe>
+								</div>
+
+					</div>
+
+				</section>
+			</div>
+
+		<!-- Problem Statement -->
+			<div class="wrapper style3">
+				<section class="container">
+					<header class="major">
+					  <h2>Problem statement</h2>
+					</header>
+			        <p>The Philippine Pangolin is one of the endangered species here in the Philippines. Our goal is to have them monitored for their safety by harnessing the power of technology.</p>
+					<a href="PAWMonitoring.html" class="button alt" id="buttonmonitor">PAW Monitoring</a>
+                    <a href="PAWTracker.html" class="button alt">PAW Tracker</a>
+				</section>
+			</div>
+
+		<!-- PAW Goals-->
+			<div class="wrapper style4">
+				<section class="container">
+					<header class="major">
+					  <h2>significance</h2>
+					  <span class="byline">The Pangolin Automated Watch is built by Filipinos to help conserve the environment by keeping track of the Philippine pangolin and warding off potential local and internation poachers that hunt them for their scales or meat that then will be sold to other neighboring countries. </span>
+					</header>
+					<div class="row flush">
+						<div class="4u">
+							<ul class="special-icons">
+								<li>
+									<span class="fa fa-cogs"></span>
+									<h3>Built by Filipinos</h3>
+									<p>The team behind the Pangolin Automated Watch are all Filipinos that are hoping to help conserve the environment with the help of the Pangolin Automated Watch.</p>
+								</li>
+								</div>
+						<div class="4u">
+							<ul class="special-icons">
+								<li>
+									<span class="fa fa-wrench"></span>
+									<h3>Carefully Organized</h3>
+									<p>The project is coded with comprehensive programming languages and is developed and designed properly. It will use ArcGIS for mapping the location of the habitat of pangolin, TensorFlow for the model prediction, and Firebase for linking real time data for our website.</p
+								</li> 
+										<div class="logos">
+										<a href="https://firebase.google.com/" class="sublogos1"><img src=images/firebase.png width="125"></a>
+										<a href="https://www.tensorflow.org/js" class="sublogos2"><img src=images/Tensorflow.png width="190"></a>
+										<a href="https://developers.arcgis.com/javascript/" class="sublogos3"><img src=images/arcgis.png width="70"></a>
+									</div>
+								</ul>
+						</div>
+						<div class="4u">
+							<ul class="special-icons">
+								<li>
+									<span class="fa fa-leaf"></span>
+									<h3>For the Philippine Pangolin</h3>
+									<p>The team behind the Pangolin Automated Watch is making sure that our project is feasible for the conservation of the Philippine pangolin in its natural habitat in the forests of Palawan.</p>
+								</li>
+								</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+		
+		<!-- Team -->
+			<div class="wrapper style5">
+				<section id="team" class="container">
+					<header class="major">
+						<h2>MEET THE TEAM</h2>
+						<span class="byline">Team Maharlika desires to innovate solutions with the help of science and technology for a better future.</span>
+					</header>
+					<div class="row">
+						<div class="3u">
+							<a class="image"><img src="images/Erwin.png" alt="" width="195" style=""></a>
+							<h3>Erwin Bonto</h3>
+							<p>Team Leader<br>
+                            Back End Developer</p>
+						</div>
+						<div class="3u">
+							<a class="image"><img src="images/Marc.png" alt="" width="195"></a>
+							<h3>Marc Andrie Bermundo</h3>
+							<p>Front End Developer</p>
+						</div>
+						<div class="3u">
+							<a class="image"><img src="images/Julius.png" alt="" width="195"></a>
+							<h3>Julius Rafael Ele</h3>
+							<p>Back End Developer</p>
+						</div>
+						<div class="3u">
+							<a class="image"><img src="images/Justin.png" alt="" width="195"></a>
+							<h3>Justin Alexis Versoza</h3>
+							<p>Front End Developer</p>
+						</div>
+					</div>
+				</section>
+			</div>
+
+	<!-- Footer -->
+	<div id="footer">
+			<section class="container">
+			  <header class="major">
+					<h2>Connect with us!</h2>
+				  <span class="byline">Facebook - facebook.com/team.maharlika.rmchs</span>
+<span class="byline">Gmail - maharlika.inquiries@gmail.com</span>
+				</header>
+				<ul class="icons">
+					<li class="active"><a href="https://facebook.com/team.maharlika.rmchs" class="fa fa-facebook"><span>Facebook</span></a></li>
+					<li><a href="https://mail.google.com" class="fa fa-google-plus"><span>Google+</span></a></li>
+				</ul>
+				<hr />
+			</section>
+			</div>
+
+</body>
+</html>
