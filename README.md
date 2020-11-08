@@ -6,7 +6,7 @@ Here you will see the repository for our project.
 
 ## Team Members:
 
-Erwin B. Bonto, Leader and Back End Developer
+**Erwin B. Bonto, Leader and Back End Developer
 Marc Andrie M. Bermundo, Front End Developer and Designer
 Julius Rafael Ele, Back End Developer
-Justin Alexis Versoza, Front End Developer
+Justin Alexis Versoza, Front End Developer**
